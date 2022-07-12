@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="icon" href="./assets/img/Scissor.ico" />
+    <title>RockScissorPaper</title>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <section class="container">
+        <div class="result">
+          <img src="./assets/img/Rock.png" alt="" id="enemyOpt" />
+          <img src="./assets/img/Scissor.png" alt="" id="myOpt" />
+        </div>
+        <h1 id="result">Escolha uma opção</h1>
+
+        <div class="options">
+          <a
+            href="#"
+            onclick="ChooseOpt(1)"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="1.1"
+            ><img src="./assets/img/Rock.png" alt=""
+          /></a>
+          <a
+            href="#"
+            onclick="ChooseOpt(2)"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="1.1"
+            ><img src="./assets/img/Scissor.png" alt=""
+          /></a>
+          <a
+            href="#"
+            onclick="ChooseOpt(3)"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="1.1"
+            ><img src="./assets/img/Paper.png" alt=""
+          /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script
+      type="text/javascript"
+      src="./assets/js/Funcionalidades.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+  </body>
+</html>
