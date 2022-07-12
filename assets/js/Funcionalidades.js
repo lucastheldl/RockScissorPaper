@@ -33,6 +33,14 @@ function ChooseOpt(num) {
   if (num + 1 == opt) {
     result.innerHTML = "Vitoria!";
     result.style = "color: yellow;";
+  } else if (num == 3 && num != opt) {
+    if (opt == 1) {
+      result.innerHTML = "Vitoria!";
+      result.style = "color: yellow;";
+    } else {
+      result.innerHTML = "Derrota!";
+      result.style = "color: red;";
+    }
   } else if (num == opt) {
     result.innerHTML = "Empate!";
     result.style = "color: white;";
